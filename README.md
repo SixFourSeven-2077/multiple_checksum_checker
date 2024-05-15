@@ -3,11 +3,11 @@
 This little script was made because I needed a tool to check multiple files SHA1 hashes with the help of a SHA1 table.
 This tool probably works if your table looks like this :
 
-| hash1 | file path            |
+hash1 file_path            
 
-| hash2 | another file path    |
+hash2 another_file_path
 
-| hash3 | wow again a file path|
+hash3 wow_again_a_file_path|
 
 
 It reads the checksum from the file extension of the table, reads the contents expecting the first part to be the expected hash, while the second is the path.
